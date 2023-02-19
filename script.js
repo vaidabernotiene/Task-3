@@ -13,3 +13,10 @@ const ENDPOINT = "https://api.github.com/users";
 
 const showUsersBtn = document.querySelector("#btn");
 const displUsers = document.querySelector("#output");
+displUsers.style.gap = "20px";
+
+showUsersBtn.addEventListener("click", getUsersData);
+
+async function getUsersData() {
+  
+}
